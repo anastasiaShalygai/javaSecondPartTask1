@@ -11,6 +11,7 @@ public class Implementation {
     private Implementation() {
     }
 
+    //firstly must specify access modifier, then static/final/abstract then return type, and then name
     static public void createObject() {
         Boy boy1 = new Boy("Andrew", 19, 190, 70, "brown");
         Boy boy2 = new Boy("Ethan", 30, 170, 90, "black");
